@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Khan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b669b04fac.js" integrity="sha384-MfS+pOt8kCgiSoo1GOgde3mM6e2iA7pMzZtdZnlvKOQZxbs9dBrl5blgd1lJvAwb" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">My Resume</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am <span>Naveen Khan</span><br>from India....</h1>
+            </div>
+        </div>
+    </div>
+  
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="MY.png" alt="Naveen Khan">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Front-end Developer at <span>EIBO SERVICES PRIVATE LIMITED.</span> With 2 years of experience in front-end development and a strong background in front-end libraries, I am confident in my ability to contribute effectively to your team.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'projects')">Projects</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web designing/web development</span><br>Web app development</li>
+                            <li><span>React.js</span><br>React.js App development</li>
+                            <li><span>Data Analytics</span><br>Data Science & Data visualization/machine learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Front-end web development internship at Eibo Services Pvt Ltd</li>
+                            <li><span>2022-2023</span><br>Web development/web designing at EIBO</li>
+                            <li><span>2023</span><br>React.js</li>
+                            <li><span>2023-2024</span><br>Data Science & Data visualization/machine learning internship at Techieshubhdeep IT Solutions Pvt. Ltd. </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2024</span><br>Bachelor Of Technology From RGPV University Bhopal</li>
+                            <li><span>2017-2018</span><br>Higher Secondary School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>JARVISH</span><br>AI Assistant using Java, Python, and open libraries</li>
+                            <li><span>Login-Signup Page</span><br>Login Signup Page using React.js</li>
+                            <li><span>Rendering A Map</span><br>Rendered map using React.js, tailwind.css, Typescript, and Map API from Google</li>
+                            <li><span>E-commerce Website</span><br>Using CSS3, HTML5, JS </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                   <h2>Web Design</h2>
+                   <p>
+                    Web design encompasses the process of creating visually appealing and functional websites.<br> It involves combining elements such
+                     as layout, color, typography, and graphics to deliver an engaging user experience. Effective web design focuses on 
+                    user interface (UI) and user experience (UX) design principles to ensure easy navigation and accessibility across various devices.
+                    <br/> Designers employ coding languages like HTML, CSS, and JavaScript to bring designs to life, ensuring compatibility with different browsers and devices.</p> 
+                    <a href="#" rel="noopener noreferrer">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                     Web design encompasses the process of creating visually appealing and functional websites.<br> It involves combining elements such
+                      as layout, color, typography, and graphics to deliver an engaging user experience. Effective web design focuses on 
+                     user interface (UI) and user experience (UX) design principles to ensure easy navigation and accessibility across various devices.
+                     <br/> Designers employ coding languages like HTML, CSS, and JavaScript to bring designs to life, ensuring compatibility with different browsers and devices.</p> 
+                     <a href="#" rel="noopener noreferrer">Learn more</a>
+                 </div>
+
+                 <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analytics</h2>
+                    <p>
+                     Web
+
+ design encompasses the process of creating visually appealing and functional websites.<br> It involves combining elements such
+                      as layout, color, typography, and graphics to deliver an engaging user experience. Effective web design focuses on 
+                     user interface (UI) and user experience (UX) design principles to ensure easy navigation and accessibility across various devices.
+                     <br/> Designers employ coding languages like HTML, CSS, and JavaScript to bring designs to life, ensuring compatibility with different browsers and devices.</p> 
+                     <a href="#" rel="noopener noreferrer">Learn more</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>E-Commerce website</h3>
+                        <p>Social media website using JavaScript and UI/UX design</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Data Analysis</h3>
+                        <p>Data Analysis Using ML/DL</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpg" alt="Work 3">
+                    <div class="layer">
+                        <h3>App development</h3>
+                        <p>Social media app using JavaScript and UI/UX design</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------Contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> naveenkhan9516@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91-91717-39795</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+
+                    </div>
+                    <a href="My CV.Pdf" download class="btn btn2">Download CV/Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your-Name" required>
+                        <input type="email" name="Email" placeholder="Your-Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Kevin. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        function opentab(event, tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzCess-Pmp5MWAD5SOhrr4il3etuDVpx4aWkZjlFpaY7rCHYPWF2WmOaylOsMHNgMYq/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById('msg');
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+      </script>
+</body>
+</html>
